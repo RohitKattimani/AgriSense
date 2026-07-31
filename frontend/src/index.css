@@ -1,0 +1,45 @@
+:root {
+  --color-bg: #f6f3ea;
+  --color-surface: #ffffff;
+  --color-primary: #2f6b3a;
+  --color-primary-dark: #204a28;
+  --color-accent: #d98c2b;
+  --color-text: #262420;
+  --color-muted: #6f6a5e;
+  --color-border: #e5e0d2;
+  --color-danger: #b3261e;
+  --color-danger-bg: #fbeceb;
+  --color-success-bg: #eaf4e9;
+  --radius: 14px;
+  --shadow: 0 2px 10px rgba(38, 36, 32, 0.06);
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Georgia", "Iowan Old Style", serif;
+  margin: 0 0 8px 0;
+  color: var(--color-primary-dark);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select {
+  font-family: inherit;
+}

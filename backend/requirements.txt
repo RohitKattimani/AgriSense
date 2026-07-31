@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+Pillow==10.4.0
+numpy==1.26.4
+scikit-learn==1.5.2
+pandas==2.2.2
+transformers==4.44.2
+torch==2.4.1
+openai==1.51.0   # also used for Groq (OpenAI-compatible API, LLM_PROVIDER=groq)
+anthropic==0.36.0
+httpx==0.27.2
+python-dotenv==1.0.1
