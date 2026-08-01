@@ -99,7 +99,7 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
-cp .env.example .env
+cp .env.example .env   #if using Windows, then type copy .env.example .env
 # then edit .env and add whichever keys you have, e.g.:
 #   LLM_PROVIDER=groq
 #   GROQ_API_KEY=gsk_...
@@ -123,7 +123,7 @@ In a second terminal:
 cd frontend
 npm install
 
-cp .env.example .env
+cp .env.example .env #if using Windows, then type copy .env.example .env
 # defaults to VITE_API_BASE_URL=http://localhost:8000, change if needed
 
 npm run dev
