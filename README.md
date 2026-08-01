@@ -112,7 +112,7 @@ uvicorn app.main:app --reload --port 8000
 Backend is now running at **http://localhost:8000**. Interactive API docs (Swagger UI) are
 auto-generated at **http://localhost:8000/docs** - useful for testing endpoints directly.
 
-First request to `/api/diagnose` or `/api/field-scan` will download the HuggingFace model
+The first request to `/api/diagnose` or `/api/field-scan` will download the HuggingFace model
 weights (a few hundred MB) - this happens once and is cached locally afterward.
 
 ## 2. Frontend setup
